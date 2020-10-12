@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+}
+
+h1 {
+  margin-top: 0;
+  width: 50%;
+  font-size: 526%;
+  color: #0f3057;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', sans-serif;
+}
+
+.SE {
+  text-decoration: underline;
+}
+
+.topdescription {
+  font-size: 1rem;
+  font-weight: normal;
+  height: 2rem;
+}
+
+.topdescribe {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.2rem;
+  color: #00587a;
+}
+
+h3 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5rem;
+  color: #008891;
+  text-align: left;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #333333;
+  font-weight: bold;
+  text-align: left;
+}
+
+.top-container {
+  background-color: rgba(100, 149, 237, 0.7);
+  position: relative;
+  padding-top: 5%;
+}
+
+.middle-comtainer {}
+
+hr {
+  border-style: dotted none none none;
+  width: 5%;
+  border-width: 0.5rem;
+  border-color: #929aab
+}
+
+.profile-img {
+  margin-top: 5%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 10% auto 10% auto;
+}
+
+.bottom-container {
+  background-color: rgba(100, 149, 237, 0.7);
+  padding: 40px 0px 20px;
+}
+
+/* ................IMAGES................... */
+.top-cloud {
+  position: absolute;
+  right: 20%;
+}
+
+.middle-cloud {
+  position: absolute;
+  left: 10%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 10%;
+  bottom: 40%;
+}
+
+.skill {
+  float: left;
+  width: 30%;
+  margin-right: 30px;
+}
+
+.skill1 {
+  float: right;
+  width: 30%;
+  margin-left: 30px;
+}
+
+.GetInTouch {
+  width: 17%;
+}
+
+/* ....................IMAGES....................... */
+.bottom-discription {
+  text-align: center;
+}
+
+.bottom-describe {
+  text-align: center;
+}
+
+/* .btn {
+  color: #11999E;
+
+} */
+.btn {
+  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  background-color: #7892c2;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ebdfeb;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  padding: 12px 14px;
+  text-decoration: none;
+  margin: 2% auto 2% auto;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+  background-color: #476e9e;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+a {
+  color: #00587a;
+  margin: 0.5% 1% 2% 1%;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+}
+
+a:hover{
+  color: #ebdfeb;
+}
+
+.copyright {
+  margin-top: 1%;
+  padding-top: 1%;
+  text-align: center;
+  font-size: 1rem;
+  position: relative;
+  top: 30px;
+}
